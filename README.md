@@ -27,7 +27,7 @@ To run this pipeline locally:
 
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/YourUsername/Your-Repo-Name.git](https://github.com/YourUsername/Your-Repo-Name.git)
+   git clone [https://github.com/alidotdev10/Zero-Shot-GER-Code-Switched-ASR.git](https://github.com/alidotdev10/Zero-Shot-GER-Code-Switched-ASR.git)
    cd Your-Repo-Name
 
 2. Install the required dependencies:
