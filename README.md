@@ -3,7 +3,7 @@
 ## 📖 Project Overview & Academic Motivation
 This project is an experimental evaluation of **Generative Error Correction (GER)** applied to Code-Switched Automatic Speech Recognition (CS-ASR). 
 
-It is directly inspired by the 2023 paper *"Generative Error Correction for Code-Switching Speech Recognition Using Large Language Models"* by Chen et al. (Speech and Language Laboratory, Nanyang Technological University). While their research successfully demonstrated that LLMs can drastically reduce Mixed Error Rates (MER) using Low-Rank Adaptation (LoRA), this repository explores a modern extension: **Can the latest generation of open-weights foundation models (LLaMA-3.1) achieve this GER zero-shot, bypassing the need for parameter tuning?**
+It is directly inspired by the 2023 paper *"[Generative Error Correction for Code-Switching Speech Recognition Using Large Language Models](https://arxiv.org/abs/2310.13013)"* by Chen et al. (Speech and Language Laboratory, Nanyang Technological University). While their research successfully demonstrated that LLMs can drastically reduce Mixed Error Rates (MER) using Low-Rank Adaptation (LoRA), this repository explores a modern extension: **Can the latest generation of open-weights foundation models (LLaMA-3.1) achieve this GER zero-shot, bypassing the need for parameter tuning?**
 
 ## 🏗️ Architecture & Methodology
 Traditional acoustic models suffer heavily from **Language Dominance Bias** when processing code-switched audio. When a speaker switches between two languages (e.g., English and Urdu/Hindi), baseline models often force the entire sequence into a single dominant script, causing severe cross-lingual phonetic hallucinations.
